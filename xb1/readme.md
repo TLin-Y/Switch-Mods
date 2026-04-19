@@ -1,0 +1,1 @@
+These fully optimized configuration files are suitable for any MacBook or displays with 2K resolution and higher. For the best image quality, we recommend setting FSR sharpness to 100%

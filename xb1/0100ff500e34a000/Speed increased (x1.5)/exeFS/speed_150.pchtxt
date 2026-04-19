@@ -1,0 +1,13 @@
+@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+
+@flag offset_shift 0x100
+
+// game::StateUtil::updateMaxHorizontalVelocityRateCommon
+// FMOV S8, 1.0 > FMOV S8, 1.50
+@enabled
+004CF9B4 08102F1E
+004CF9E8 08102F1E
+004CF9E0 08102F1E
+
+@stop
+

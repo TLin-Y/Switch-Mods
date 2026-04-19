@@ -1,0 +1,23 @@
+@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+
+@flag offset_shift 0x100
+
+// game::DataUtil::addExpApSp(fw::Document const&, game::DataUtil::AddExpApSpInfo const&, bool)
+// More points at level up
+// ADD W8, W9, W8 > ADD W8, W9, W8, LSL 3
+@enabled
+000ED500 280D080B
+
+// game::SeqBattle::addExpForBattle(game::SeqBattle::ExpForBattleInfo const&)
+// More points when unique enemy killed
+// MOV W1, 1 > MOV W1, 8
+@enabled
+005CF140 01018052
+
+// game::DataUtil::setupPcJoin
+// More points when a new member joins the team
+// SUB W8, W8, 1 > LSL W8, W8, 3
+@enabled
+000E9CF0 08711D53
+
+@stop

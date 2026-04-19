@@ -1,0 +1,10 @@
+@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+
+@flag offset_shift 0x100
+
+// game::DataPassiveSkill::addSP
+// ADD W9, W9, W1 > ADD W9, W9, W1, LSL 2
+@enabled
+000B533C 2909010B
+
+@stop

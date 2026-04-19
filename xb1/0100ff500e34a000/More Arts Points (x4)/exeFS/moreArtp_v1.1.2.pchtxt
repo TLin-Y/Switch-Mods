@@ -1,0 +1,12 @@
+@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+
+@flag offset_shift 0x100
+
+// game::DataUtil::addExpApSp
+// More points from battles
+// ADD W8, W8, W9 > ADD W8, W8, W9, LSL 2
+@enabled
+000ED468 0809090B
+000ED42C 0809090B
+
+@stop
